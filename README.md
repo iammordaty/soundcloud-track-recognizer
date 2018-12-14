@@ -38,9 +38,9 @@ See [soundcloud-track-recognizer-cli](https://github.com/iammordaty/soundcloud-t
 
 ## See also
 
-- [soundcloud-track-recognizer-cli](https://github.com/iammordaty/soundcloud-track-recognizer-cli)
 - [audio-recognizer](https://github.com/iammordaty/audio-recognizer)
 - [soundcloud-api-client](https://github.com/iammordaty/soundcloud-api-client)
+- [soundcloud-track-recognizer-cli](https://github.com/iammordaty/soundcloud-track-recognizer-cli)
 
 ## License
 
