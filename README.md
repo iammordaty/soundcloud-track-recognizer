@@ -4,7 +4,7 @@ Node.js module that fetches comments and streams from SoundCloud and tries to re
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Further information](#further-information)
