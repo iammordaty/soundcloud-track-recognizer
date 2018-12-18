@@ -35,7 +35,11 @@ const config = {/* ... */};
 const recognizer = new SoundCloudTrackRecognizer(config);
 
 // fetch user's comments and commented track data
-const commentedTracks = await recognizer.getCommentedTracks(params);
+const username = 'username';
+const filter = 'id?'
+const limit = 10;
+
+const commentedTracks = await recognizer.getCommentedTracks({ username, filter, limit });
 
 // download tracks and extract fragments
 const fragments = await recognizer.createFragments(commentedTracks);
