@@ -1,6 +1,6 @@
 {
   "name": "soundcloud-track-recognizer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node.js module that fetches comments and streams from SoundCloud and tries to recognize commented fragments via audio recognition services.",
   "keywords": [
     "acrcloud",
