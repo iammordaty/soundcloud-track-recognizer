@@ -28,6 +28,22 @@ $ npm install --save soundcloud-track-recognizer
 
 ## Usage
 
+```js
+const SoundCloudTrackRecognizer = require('soundcloud-track-recognizer');
+
+const config = {/* ... */};
+const recognizer = new SoundCloudTrackRecognizer(config);
+
+// fetch user's comments and commented track data
+const commentedTracks = await recognizer.getCommentedTracks(params);
+
+// download tracks and extract fragments
+const fragments = await recognizer.createFragments(commentedTracks);
+
+// recognize fragments
+const results = await recognizer.recognize(fragments);
+```
+
 See [soundcloud-track-recognizer-cli](https://github.com/iammordaty/soundcloud-track-recognizer-cli) for more information.
 
 ## Further information
